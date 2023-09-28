@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad2295d8-c17e-44ad-a6f7-8005fc93447a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2U9WGQp5GhLcH8tbgSMt51ZU6M4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad2295d8-c17e-44ad-a6f7-8005fc93447a" name="Changes" comment="" />
+      <created>1692352183565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692352183565</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="104ce4">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="104ce4" />
+              <option name="initiateTms" value="1694524636794" />
+              <option name="request" value="erkläre mir diesen code genauer bitte" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Natürlich! Lassen Sie uns den Code genauer betrachten:&#10;&#10;1. Zuerst importieren wir die `Scanner`-Klasse aus dem `java.util`-Paket, um Benutzereingaben zu lesen.&#10;&#10;2. Die `Main`-Klasse enthält die `main`-Methode, die das Hauptprogramm enthält.&#10;&#10;3. In der `main`-Methode erstellen wir eine Instanz der `Scanner`-Klasse, um Benutzereingaben zu lesen.&#10;&#10;4. Wir fordern den Benutzer auf, die Länge, Breite und Höhe des Quaders einzugeben und lesen diese Werte mit Hilfe des `Scanner` ein.&#10;&#10;5. Anschließend rufen wir die drei Hilfsmethoden `calculateSumOfEdgeLengths`, `calculateSurfaceArea` und `calculateVolume` auf, um die Summe der Kantenlängen, die Oberfläche und das Volumen des Quaders zu berechnen. Diese Methoden nehmen die Länge, Breite und Höhe des Quaders als Parameter und geben das entsprechende Ergebnis zurück.&#10;&#10;6. Schließlich geben wir die berechneten Werte auf der Konsole aus.&#10;&#10;Die Methode `calculateSumOfEdgeLengths` berechnet die Summe der Kantenlängen, indem sie die Länge, Breite und Höhe des Quaders verwendet und diese mit 4 multipliziert.&#10;&#10;Die Methode `calculateSurfaceArea` berechnet die Oberfläche des Quaders, indem sie die Länge, Breite und Höhe verwendet und die entsprechenden Berechnungen durchführt.&#10;&#10;Die Methode `calculateVolume` berechnet das Volumen des Quaders, indem sie die Länge, Breite und Höhe verwendet und diese multipliziert.&#10;&#10;Durch die Verwendung dieser separaten Hilfsmethoden wird der Code übersichtlicher und leichter zu verstehen. Es ermöglicht auch eine bessere Wiederverwendbarkeit, da diese Methoden in anderen Teilen des Codes wiederverwendet werden können, wenn Sie weitere Berechnungen für den Quader benötigen.&#10;&#10;Ich hoffe, das klärt Ihre Fragen. Lassen Sie mich wissen, wenn Sie weitere Informationen benötigen!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1694524664880" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="3d45e5">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="3d45e5" />
+              <option name="initiateTms" value="1694524510998" />
+              <option name="request" value="Implementieren Sie ein Java-Programm, welches aus den einzugebenden Werten für die Kanten die Summe der Kantenlängen, die Oberfläche und das Volumen des Quaders berechnet." />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! I can help you with that. Here's an updated version of the `Main` class that calculates the sum of edge lengths, surface area, and volume of a cuboid based on user input:&#10;&#10;```java&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;&#10;        System.out.print(&quot;Enter the length of the cuboid: &quot;);&#10;        double length = scanner.nextDouble();&#10;&#10;        System.out.print(&quot;Enter the width of the cuboid: &quot;);&#10;        double width = scanner.nextDouble();&#10;&#10;        System.out.print(&quot;Enter the height of the cuboid: &quot;);&#10;        double height = scanner.nextDouble();&#10;&#10;        double sumOfEdgeLengths = calculateSumOfEdgeLengths(length, width, height);&#10;        double surfaceArea = calculateSurfaceArea(length, width, height);&#10;        double volume = calculateVolume(length, width, height);&#10;&#10;        System.out.println(&quot;Sum of edge lengths: &quot; + sumOfEdgeLengths);&#10;        System.out.println(&quot;Surface area: &quot; + surfaceArea);&#10;        System.out.println(&quot;Volume: &quot; + volume);&#10;    }&#10;&#10;    private static double calculateSumOfEdgeLengths(double length, double width, double height) {&#10;        return 4 * (length + width + height);&#10;    }&#10;&#10;    private static double calculateSurfaceArea(double length, double width, double height) {&#10;        return 2 * (length * width + width * height + height * length);&#10;    }&#10;&#10;    private static double calculateVolume(double length, double width, double height) {&#10;        return length * width * height;&#10;    }&#10;}&#10;```&#10;&#10;In this updated code, I've added three separate methods: `calculateSumOfEdgeLengths`, `calculateSurfaceArea`, and `calculateVolume`. These methods take the length, width, and height of the cuboid as parameters and return the corresponding calculations.&#10;&#10;Let me know if you need any further assistance!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1694524527053" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1694524074700" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1694524076550" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
